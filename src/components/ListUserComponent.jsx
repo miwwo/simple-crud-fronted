@@ -28,7 +28,7 @@ const ListUserComponent = () => {
         navigator(`/update-user/${userId}`);
     }
     function removeUser(userId) {
-        console.log(userId);
+        console.log("User with id: " + userId + " removed!");
         deleteUser(userId).then((response) =>{
             console.log(response.data)
             getAllUsers();
@@ -73,4 +73,4 @@ const ListUserComponent = () => {
         </div>
     )
 }
-export default ListUserComponent
+export default ListUserComponent;

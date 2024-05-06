@@ -12,4 +12,4 @@ const HeaderComponent = () => {
         </div>
     )
 }
-export default HeaderComponent
+export default HeaderComponent;
